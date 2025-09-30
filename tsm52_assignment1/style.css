@@ -1,0 +1,386 @@
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 36px; 
+    font-family: 'Georgia', serif; 
+    color: #5C008D; 
+    margin-bottom: 20px;
+}
+.hero a {
+    display: inline-block; 
+    background-color: #5C008D;
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin-top: 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+.hero a:hover {
+    background-color: #7D33A8; 
+}
+
+.hero img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Style for the about section */
+.about {
+    background-color: #f9f9f9; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 20px auto; 
+    text-align: justify; 
+}
+
+.about h2 {
+    font-family: 'Georgia', serif; 
+    color: #5C008D; 
+    text-align: center; 
+    font-size: 28px; 
+    margin-bottom: 20px; 
+}
+
+.about p {
+    font-size: 18px; 
+    line-height: 1.8; 
+    color: #333;
+}
+body {
+    background-color: lavender; 
+    background-image: url("png7.jpg!sw800"); 
+    background-size: cover; 
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #333; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+
+
+/* Style for the music section */
+.music {
+    padding: 30px; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    text-align: center; 
+}
+
+
+/* Style for individual album blocks */
+.album {
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+/* Style for album images */
+.album img {
+    max-width: 600px; 
+    height: auto; 
+    border-radius: 10px; 
+    margin-bottom: 100px; 
+}
+
+/* Style for album titles */
+.album p {
+    font-size: 30px; 
+    font-weight: bold; 
+    color: #333; 
+    margin: 0; 
+    text-align: center; 
+}
+
+
+/* Style for the events section */
+.events {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+/* Style for images in the story section */
+.story img {
+    max-width: 600px;
+    height: auto; 
+    display: block; 
+    margin: 10px auto; 
+}
+
+/* Style for individual event boxes */
+.event {
+    background-color: #5C008D ; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border: 2px solid black; 
+    width: 600px; 
+    height: 150px; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+/* Style for the social media section */
+.social-media {
+    text-align: center; 
+    margin: 20px 0;
+}
+
+.social-links {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    margin-top: 10px;
+}
+/* Round edges for specific social media icons */
+.social-links a img[alt="YouTube icon"],
+.social-links a img[alt="TikTok icon"],
+.social-links a img[alt="Spotify icon"] {
+    border-radius: 10px; 
+}
+.social-links a img {
+    width: 80px;
+    height: auto; 
+    transition: transform 0.3s ease;
+}
+
+.social-links a img:hover {
+    transform: scale(1.2); 
+}
+
+/* Center images both horizontally and vertically */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center; 
+}
+
+.logo {
+    background-color: lavender; 
+    mix-blend-mode: multiply; 
+    height: 150px; 
+    width: auto; 
+}
+
+nav {
+    background-color: #333; 
+    padding: 10px 20px; 
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+}
+
+nav ul li a:hover {
+    color: #5C008D; 
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5C008D;
+}
+
+/* Style for the story section */
+.story {
+    background-color: #f9f9f9; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 20px auto; 
+    text-align: justify; 
+}
+
+/* Style for the story heading */
+.story h2 {
+    font-family: 'Georgia', serif; 
+    color: #5C008D; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 28px; 
+}
+
+/* Style for the story text */
+.story p {
+    font-size: 18px; 
+    line-height: 1.8; 
+    color: #5C008D; ; 
+    margin-bottom: 20px; 
+}
+
+/* Style for the members section (same as the story section) */
+.member {
+    background-color: #f9f9f9; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    max-width: 800px; 
+    margin: 20px auto;
+    text-align: justify; 
+}
+
+/* Style for the story heading */
+.member h2 {
+    font-family: 'Georgia', serif; 
+    color: #5C008D; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-size: 28px; 
+}
+
+/* Style for the story text */
+.member p {
+    font-size: 18px;
+    line-height: 1.8; 
+    color: #5C008D; ; 
+    margin-bottom: 20px; 
+}
+
+/* Style for the contact section */
+.contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.contact h2 {
+    font-family: 'Georgia', serif;
+    color: #5C008D; 
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #5C008D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+
+.contact-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.contact-form h3 {
+    font-family: 'Georgia', serif;
+    color: #5C008D;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #5C008D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #7D33A8;
+}
+
+/* Highlight for span elements */
+.highlight {
+    color: #5C008D;
+    font-weight: bold;
+    background-color: #f9f9f9; 
+    padding: 2px 4px; 
+    border-radius: 5px;
+}
+
