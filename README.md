@@ -12,13 +12,13 @@ The Events page highlights past shows as well as upcoming concerts.
 The Contact page allows anyone to send the band an email about booking or anything else.
 
 HTML:
-<header>: to create consistency across each page.
-<nav>: To allow a consistent space for users to navigate the website.
-<section>: This provided an easy way to organize content and edit it in CSS.
-<img>: This was used to display images throughout the website.
-<button>: This was used along with the interactive elements that were created in JavaScript, such as "Scary Mode" and "Toggle Navigation."
-<a>: This was used for hyperlinks across the website.
-<span>: Used to highlight important text.
+header: to create consistency across each page.
+nav: To allow a consistent space for users to navigate the website.
+section: This provided an easy way to organize content and edit it in CSS.
+img: This was used to display images throughout the website.
+button: This was used along with the interactive elements that were created in JavaScript, such as "Scary Mode" and "Toggle Navigation."
+a: This was used for hyperlinks across the website.
+span: Used to highlight important text.
 
 CSS:
 A lavender background with a repeating image sets the overall theme.
