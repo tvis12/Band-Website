@@ -35,6 +35,9 @@ invertColors(): This was created to create the "Scary Mode" which is not too use
 
 
 HTML Validation: 
+![HTML Validation Screenshot](HTMLValidation.png)
 
-CSS Validation: https://jigsaw.w3.org/css-validator/validator
+
+CSS Validation: 
+![CSS Validation Screenshot](CSSValidation.png)
 
